@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
           child: Icon(Icons.chrome_reader_mode, color: Colors.white),
           backgroundColor: Colors.green,
           onTap: () => print('Pressed Read Later'),
-          label: 'Read',
+          label: 'Add Lyric',
           labelStyle:
           TextStyle(fontWeight: FontWeight.w500, color: Colors.white),
           labelBackgroundColor: Colors.black,
@@ -26,8 +26,8 @@ class MyApp extends StatelessWidget {
         SpeedDialChild(
           child: Icon(Icons.create, color: Colors.white),
           backgroundColor: Colors.green,
-          onTap: () => print('Pressed Write'),
-          label: 'Write',
+          onTap: () => print('Pre'),
+          label: 'Add Singer',
           labelStyle:
           TextStyle(fontWeight: FontWeight.w500, color: Colors.white),
           labelBackgroundColor: Colors.black,
@@ -35,8 +35,8 @@ class MyApp extends StatelessWidget {
         SpeedDialChild(
           child: Icon(Icons.laptop_chromebook, color: Colors.white),
           backgroundColor: Colors.green,
-          onTap: () => print('Pressed Code'),
-          label: 'Code',
+          onTap: () => print('Pres'),
+          label: 'Settings',
           labelStyle:
           TextStyle(fontWeight: FontWeight.w500, color: Colors.white),
           labelBackgroundColor: Colors.black,
