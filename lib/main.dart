@@ -15,16 +15,16 @@ class MyApp extends StatelessWidget {
       curve: Curves.bounceInOut,
       children: [
         SpeedDialChild(
-          child: Icon(Icons.chrome_reader_mode, color: Colors.white),
+          child: Icon(Icons.admin_panel_settings, color: Colors.white),
           backgroundColor: Colors.blue,
-          onTap: () => print('Pressed Read Later'),
-          label: 'Add gLyric',
+          onTap: () => print('Pres'),
+          label: 'Settings',
           labelStyle:
           TextStyle(fontWeight: FontWeight.w500, color: Colors.white),
           labelBackgroundColor: Colors.black,
         ),
         SpeedDialChild(
-          child: Icon(Icons.create, color: Colors.white),
+          child: Icon(Icons.account_circle, color: Colors.white),
           backgroundColor: Colors.blue,
           onTap: () => print('Pre'),
           label: 'Add Singer',
@@ -33,10 +33,10 @@ class MyApp extends StatelessWidget {
           labelBackgroundColor: Colors.black,
         ),
         SpeedDialChild(
-          child: Icon(Icons.laptop_chromebook, color: Colors.white),
+          child: Icon(Icons.create, color: Colors.white),
           backgroundColor: Colors.blue,
-          onTap: () => print('Pres'),
-          label: 'Settings',
+          onTap: () => print('Pressed Read Later'),
+          label: 'Add Lyric',
           labelStyle:
           TextStyle(fontWeight: FontWeight.w500, color: Colors.white),
           labelBackgroundColor: Colors.black,
@@ -55,9 +55,9 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: Center(
             child: Text(
-              'Lyric BD!',
+              'Lyric BD🎶',
               style: TextStyle(
-                fontSize: 30.0,
+                fontSize: 50.0,
                 color: Colors.blue,
                 fontWeight: FontWeight.bold,
               ),
