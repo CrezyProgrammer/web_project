@@ -10,13 +10,13 @@ class MyApp extends StatelessWidget {
     return SpeedDial(
       animatedIcon: AnimatedIcons.menu_close,
       animatedIconTheme: IconThemeData(size: 28.0),
-      backgroundColor: Colors.green[900],
+      backgroundColor: Colors.blue[500],
       visible: true,
       curve: Curves.bounceInOut,
       children: [
         SpeedDialChild(
           child: Icon(Icons.chrome_reader_mode, color: Colors.white),
-          backgroundColor: Colors.green,
+          backgroundColor: Colors.blue,
           onTap: () => print('Pressed Read Later'),
           label: 'Add gLyric',
           labelStyle:
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         ),
         SpeedDialChild(
           child: Icon(Icons.create, color: Colors.white),
-          backgroundColor: Colors.green,
+          backgroundColor: Colors.blue,
           onTap: () => print('Pre'),
           label: 'Add Singer',
           labelStyle:
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
         ),
         SpeedDialChild(
           child: Icon(Icons.laptop_chromebook, color: Colors.white),
-          backgroundColor: Colors.green,
+          backgroundColor: Colors.blue,
           onTap: () => print('Pres'),
           label: 'Settings',
           labelStyle:
@@ -50,7 +50,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Lyric BD'),
-          backgroundColor: Colors.green,
+          backgroundColor: Colors.blue,
         ),
         body: SafeArea(
           child: Center(
@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget {
               'Lyric BD!',
               style: TextStyle(
                 fontSize: 30.0,
-                color: Colors.green,
+                color: Colors.blue,
                 fontWeight: FontWeight.bold,
               ),
             ),
