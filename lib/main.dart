@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
           child: Icon(Icons.chrome_reader_mode, color: Colors.white),
           backgroundColor: Colors.green,
           onTap: () => print('Pressed Read Later'),
-          label: 'Add Lyric',
+          label: 'Add gLyric',
           labelStyle:
           TextStyle(fontWeight: FontWeight.w500, color: Colors.white),
           labelBackgroundColor: Colors.black,
