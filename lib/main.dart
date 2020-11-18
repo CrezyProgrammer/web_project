@@ -49,13 +49,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Geeks for Geeks'),
+          title: Text('Lyric BD'),
           backgroundColor: Colors.green,
         ),
         body: SafeArea(
           child: Center(
             child: Text(
-              'Welcome to GFG!',
+              'Lyric BD!',
               style: TextStyle(
                 fontSize: 30.0,
                 color: Colors.green,
